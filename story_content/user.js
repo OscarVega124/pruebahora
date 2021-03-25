@@ -2,13 +2,13 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6Z1kR4PZTqL":
+      case "6IvREPgJBLe":
         Script1();
         break;
-      case "5WWw6fk5k58":
+      case "6JeljvflWoP":
         Script2();
         break;
-      case "6pQpx0i76Fi":
+      case "6lrx7Dkwtcp":
         Script3();
         break;
   }
@@ -27,9 +27,6 @@ function Script2()
 {
   var player = GetPlayer();
  
-var d = new Date();
-var o = {year:'numeric', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', second:'2-digit'};
-
 //PLACE YOUR WEB APP URL
 WEB_APP_URL = "https://script.google.com/macros/s/AKfycbx_SYb5VUiurfJoi858TA7GQRp3Qj-sRyfCTdyEQdGYa7iFGJ9y/exec";
  
@@ -39,7 +36,6 @@ WEB_APP_URL = "https://script.google.com/macros/s/AKfycbx_SYb5VUiurfJoi858TA7GQR
 storyline =
 {
  "FECHA" : new Date().toJSON().slice(0,10), //STORE DATE
- "HORA" : d.toLocaleDateString('en-US', o), //STORE DATE
  "MATRICULA" : player.GetVar("Matricula"),
  "NOMBRE" : player.GetVar("Nombre"),
  "NIVEL ACADEMICO" : player.GetVar("NivelEstudios"),
